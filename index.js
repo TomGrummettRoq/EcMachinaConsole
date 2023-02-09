@@ -8,7 +8,7 @@ while (input != 'quit') {
     input = prompt('Would you like to hear a joke? ')
     let command = input.toUpperCase();
 
-        {if (input == 'yes') {
+        {if (command == 'yes') {
             prompt('Why did the chicken cross the road? ');
             }
     
