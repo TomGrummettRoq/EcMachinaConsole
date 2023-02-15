@@ -8,17 +8,14 @@ while (input != 'quit') {
     let response = input.toUpperCase();
 
         if (response == 'YES') {
-            input = prompt('Why did the chicken cross the road? '); {
-                                
-                if (response == 'WHY?'); {
-                    console.log('To get to the other side...');
-                    break;
-                };  
-            }
+            input = prompt('Why did the chicken cross the road? '); 
+            {if (response == 'WHY?') {
+                    console.log('To get to the other side...')}
+                else if (response != 'WHY?') { console.log('Try again!')
+                };
         }
     };
-    
-    
+}  
 
         //         input = prompt('Are you sure? ');
         //         if (response == 'YES') {
