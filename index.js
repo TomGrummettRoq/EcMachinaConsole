@@ -2,28 +2,34 @@
 const prompt = require('prompt-sync')();
 let input = '';
 
-// const record = [];
 
 while (input != 'quit') {
     input = prompt('Would you like to hear a joke? ')
-    let command = input.toUpperCase();
+    let response = input.toUpperCase();
 
-        {if (command == 'yes') {
-            prompt('Why did the chicken cross the road? ');
+        if (response == 'YES') {
+            input = prompt('Why did the chicken cross the road? '); {
+                                
+                if (response == 'WHY?'); {
+                    console.log('To get to the other side...');
+                    break;
+                };  
             }
-    
-            else if (console.log('Boring... '));
         }
-        
-    // Attempt to implement 'are you sure?' message after 5 successive 'No' responses
-        
-    /* record.push(input);
-        console.log(record);
-        
-        for (let i = 0; i < record.length; i++); {
-            console.log('Are you Sure??');
-        } */
+    };
     
     
 
-}
+        //         input = prompt('Are you sure? ');
+        //         if (response == 'YES') {
+        //             console.log('boring...');
+        //             break;        
+                    
+        //         };
+        // } else input = prompt('Are you sure? ');
+        //     { if (response == 'YES') {
+        //         console.log('boring...');
+        //         break;
+        //     }
+            // }
+        // }  
